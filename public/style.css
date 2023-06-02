@@ -1,0 +1,292 @@
+/* style.css */
+
+.title {
+    text-align: center;
+    text-shadow: 0 3px 3px #000000;
+    font-size: 52px;
+    letter-spacing: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 50px;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 0 3px 3px #000000;
+    font-size: 42px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: url('./gam1339.png'), auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px #000000;
+    cursor: url('./gam1339.png'), auto;
+}
+
+body {
+    background-image: url('BK.jpg');
+    cursor: url('./gam1332.png'), auto;
+}
+
+.Apps {
+    border: solid;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px #000000;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Apps a:hover {
+    color: red;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.TalkingGimmo {
+    box-shadow: 0px 10px 14px -7px #652773;
+    background: linear-gradient(to bottom, #b35962 5%, #b352a1 100%);
+    background-color: #b35962;
+    border-radius: 4px;
+    border: 1px solid #80298f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ff00b3;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.TalkingGimmo:hover {
+    background: linear-gradient(to bottom, #b352a1 5%, #b35962 100%);
+    background-color: #b352a1;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.TalkingGimmo:active {
+    position: relative;
+    top: 1px;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.GimmoMath {
+    box-shadow: 0px 10px 14px -7px #652773;
+    background: linear-gradient(to bottom, #b35962 5%, #b352a1 100%);
+    background-color: #b35962;
+    border-radius: 4px;
+    border: 1px solid #80298f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ff00b3;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.GimmoMath:hover {
+    background: linear-gradient(to bottom, #b352a1 5%, #b35962 100%);
+    background-color: #b352a1;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.GimmoMath:active {
+    position: relative;
+    top: 1px;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.GimmoEyes {
+    box-shadow: 0px 10px 14px -7px #652773;
+    background: linear-gradient(to bottom, #b35962 5%, #b352a1 100%);
+    background-color: #b35962;
+    border-radius: 4px;
+    border: 1px solid #80298f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ff00b3;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.GimmoEyes:hover {
+    background: linear-gradient(to bottom, #b352a1 5%, #b35962 100%);
+    background-color: #b352a1;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.GimmoEyes:active {
+    position: relative;
+    top: 1px;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.GimmoAndBesos {
+    box-shadow: 0px 10px 14px -7px #652773;
+    background: linear-gradient(to bottom, #b35962 5%, #b352a1 100%);
+    background-color: #b35962;
+    border-radius: 4px;
+    border: 1px solid #80298f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ff00b3;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.GimmoAndBesos:hover {
+    background: linear-gradient(to bottom, #b352a1 5%, #b35962 100%);
+    background-color: #b352a1;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.GimmoAndBesos:active {
+    position: relative;
+    top: 1px;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.Images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Images img {
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Images img:hover {
+    transform: scale(1.1);
+}
+
+.game {
+    box-shadow: 0px 10px 14px -7px #652773;
+    background: linear-gradient(to bottom, #b35962 5%, #b352a1 100%);
+    background-color: #b35962;
+    border-radius: 4px;
+    border: 1px solid #80298f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ff00b3;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+.game h2 {
+    margin: 10px 0;
+}
+
+.game-link {
+    box-shadow: 0px 10px 14px -7px #652773;
+    background: linear-gradient(to bottom, #b35962 5%, #b352a1 100%);
+    background-color: #b35962;
+    border-radius: 4px;
+    border: 1px solid #80298f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ff00b3;
+    cursor: url('./gam1339.png'), auto;
+}
+
+.games-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* style.css */
+
+
+/* Styles for custom scrollbar */
+
+::-webkit-scrollbar {
+    width: 8px;
+    /* Width of the scrollbar */
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: orange;
+    /* Background color of the track */
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: orangered;
+    /* Color of the scrollbar handle */
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: orangered;
+    /* Color of the scrollbar handle on hover */
+}
